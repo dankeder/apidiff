@@ -1,0 +1,6 @@
+*.sw[opn]
+.tags
+__pycache__
+apidiff.egg-info/
+build/
+dist/
