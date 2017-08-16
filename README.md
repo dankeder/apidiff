@@ -15,3 +15,9 @@ If the response is a JSON it's possible to run a jq(1) filter on the results bef
 diffing them, for example to filter-out non-interesting keys:
 
     apidiff --jq-filter 'del(.now.epoch)|del(.now.rfc3339)' https://now.httpbin.org/ https://now.httpbin.org/
+
+
+Licence
+-------
+
+MIT
